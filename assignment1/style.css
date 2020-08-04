@@ -1,0 +1,34 @@
+body {
+    background-color: #FFF5EE;
+}
+h1{
+  text-align: center;
+  color: crimson;
+}
+h2{
+  text-align: left;
+  color: darksalmon;
+}	
+p {
+    font-size: 13pt;
+}
+.hobbyLi{
+  color: black;
+  font-size: 13pt;
+}
+th {
+    vertical-align: top;
+}
+td {
+    height: 15px;
+}
+table {
+    border: 3px solid firebrick;
+}
+#tableheader {
+  color: firebrick;
+  text-align: center;
+}
+.tabledata {
+  text-align: center;
+}
