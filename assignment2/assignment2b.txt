@@ -1,0 +1,11 @@
+img = new SimpleImage("flag.jpg");
+img.setSize(300,300);
+function swapRedGreen(x) {
+    var newG = x.getRed();
+    var newR = x.getGreen();
+    return x.setRed(newR), x.setGreen(newG);
+}
+for (var pixel of img.values()) {
+    swapRedGreen(pixel);
+    }
+print(img);

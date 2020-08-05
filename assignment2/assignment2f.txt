@@ -1,0 +1,15 @@
+var img = new SimpleImage("smallpanda.png");
+function setBlack(px) {
+    px.setRed(0);
+    px.setGreen(0);
+    px.setBlue(0);
+}
+function addBorder(image, thickness) {
+    for (var pixel of image.values()) {
+        if (pixel.getX()<= thickness | pixel.getY()<= thickness | pixel.getX()>= image.getWidth()-thickness | pixel.getY()>= image.getHeight()-thickness) {
+            setBlack(pixel);
+        }
+    }
+}
+addBorder(img, 10);
+print (img);

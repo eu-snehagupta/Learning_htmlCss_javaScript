@@ -1,0 +1,13 @@
+fwdimg = new SimpleImage("drewRobert.png");
+bgdimg = new SimpleImage("dinos.png");
+output = new SimpleImage(fwdimg.getWidth(),fwdimg.getHeight());
+for (var pixel of fwdimg.values()) {
+    if (pixel.getGreen() > pixel.getRed() + pixel.getBlue()) {
+		output.setPixel(pixel.getX(),pixel.getY(), bgdimg.getPixel(pixel.getX(),pixel.getY()))
+    }
+    else {
+        output.setPixel(pixel.getX(),pixel.getY(),pixel)
+    }
+}
+print(output);
+
