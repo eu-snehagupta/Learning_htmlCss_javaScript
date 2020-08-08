@@ -1,0 +1,12 @@
+body{
+  background-color: #FFFFE0;
+}
+h1{
+  color: green;
+}
+canvas{
+  height: 100pt;
+  border: 1pt solid grey;
+} input{
+  font-size: 10pt;
+}

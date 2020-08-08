@@ -1,0 +1,25 @@
+h1 {
+font-family: "Times New Roman", Times, serif; 
+}
+div {
+  width: 100pt;
+  height: 15pt;
+  margin: 10pt;
+  border-style: inset;
+  text-align: center;
+}
+.helloclass {
+  background-color: orange; 
+}
+.hieclass {
+  background-color: yellow;
+}
+input{
+  background-color: red;
+}
+.changetogrey{
+  background-color: grey;
+}
+.changetowhite{
+  background-color: white;
+}

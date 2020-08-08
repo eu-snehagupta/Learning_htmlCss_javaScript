@@ -1,0 +1,11 @@
+<script src="http://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"> </script>
+
+<h1>Green Screen</h1>
+<canvas id= "fgcan"></canvas>
+<canvas id= "bgcan"></canvas>
+<p>Foreground:
+  <input type="file" accept = "image/*" multiple="false" id="fgfile" onchange="fgupload()"> </p>
+<p>Background:
+  <input type="file" accept = "image/*" multiple="false" id="bgfile" onchange="bgupload()"></p>
+<p><input type="button" value="Compose Image" id="compose" onclick="compose()"></p>
+<p><input type="button" value="Clear the canvases" id="clear" onclick="clearCanvas()"></p>

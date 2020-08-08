@@ -1,0 +1,12 @@
+canvas{
+  weidth: 200pt;
+  height: 100pt;
+  margin: 10px;
+  border: 1px solid lightgrey;
+} input {
+  font-size: 10pt;
+} .yellowcanvas {
+  background-color: yellow;
+} .bluecanvas {
+  background-color: blue;
+} 
